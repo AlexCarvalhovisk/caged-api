@@ -1,0 +1,17 @@
+server:
+  port: 8000
+  error:
+    include-message: always
+
+spring:
+  application:
+    name: api-caged-rs
+
+caged:
+  ftp-host: ftp.mtps.gov.br
+  ftp-dir: /pdet/microdados/NOVO CAGED
+  pasta-dados: dados_rs
+  uf-rs: 43
+  cod-viamao: 432300
+  charset: UTF-8
+  ftp-timeout-segundos: 120
